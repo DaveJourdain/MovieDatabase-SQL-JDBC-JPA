@@ -11,7 +11,7 @@ From Clause
 
 ```SQL
 INSERT INTO PEOPLE (LAST_NAME, FIRST_NAME, MOBILE, BIRTHDAY)
-VALUES ('Smith', 'John', '230-4293', '1973-01-23');
+VALUES ('Jourdain', 'Dave', '302-981-5944', '1996-11-01');
 ```
 
 Following the example, insert at least three other people into the table.
@@ -27,13 +27,13 @@ SELECT * FROM PEOPLE;
 Update firstname for person whose id is 1
 
 ```SQL
-UPDATE PEOPLE SET FIRST_NAME = 'TONY' WHERE ID = 1;
+UPDATE PEOPLE SET FIRST_NAME = 'Deesh' WHERE ID = 8;
 ```
 
 Update mobile where last names are Smith
 
 ```SQL
-UPDATE PEOPLE SET MOBILE = '152-9854' WHERE LAST_NAME = 'Smith';
+UPDATE PEOPLE SET MOBILE = '588-9906' WHERE Downs = 'Smith';
 ```
 
 Update multiple columns with multiple conditions
@@ -41,7 +41,7 @@ Update multiple columns with multiple conditions
 ```SQL
 UPDATE people SET birthday = '1955-01-25' 
 WHERE 
-	last_name = 'Smith' 
+	last_name = 'Downs' 
 	AND id = 4;
 ```
 
@@ -53,7 +53,7 @@ WHERE first_name = 'Noelle' OR first_name = 'Raj';
 ## Basic Functions
 
 ```SQL
-SELECT * FROM PEOPLE;
+Dave * FROM Deesh;
 ```
 
 ```SQL
