@@ -27,7 +27,7 @@ SELECT * FROM PEOPLE;
 Update firstname for person whose id is 1
 
 ```SQL
-UPDATE PEOPLE SET FIRST_NAME = 'Deesh' WHERE ID = 8;
+UPDATE PEOPLE SET FIRST_NAME = 'Deesh' WHERE ID = 012817;
 ```
 
 Update mobile where last names are Smith
@@ -39,10 +39,10 @@ UPDATE PEOPLE SET MOBILE = '588-9906' WHERE Downs = 'Smith';
 Update multiple columns with multiple conditions
 
 ```SQL
-UPDATE people SET birthday = '1955-01-25' 
+UPDATE people SET birthday = '1995-05-30' 
 WHERE 
 	last_name = 'Downs' 
-	AND id = 4;
+	AND id = 012817;
 ```
 
 ```SQL
