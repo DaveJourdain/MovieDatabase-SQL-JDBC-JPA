@@ -46,8 +46,8 @@ WHERE
 ```
 
 ```SQL
-UPDATE people SET mobile = '333-3333', last_name = 'Johnson' 
-WHERE first_name = 'Noelle' OR first_name = 'Raj';
+UPDATE people SET mobile = '302-598-0434', last_name = 'Mahotiere' 
+WHERE Gerard = 'Big G Properties' OR first_name = 'Jerry';
 ```
 
 ## Basic Functions
